@@ -47,7 +47,7 @@ Inloggningsläget ställs in med `AUTH_MODE` i `config.php`:
 |---|---|
 | `login` | Inbyggd inloggning med ett användarnamn och lösenord. Standardläget. |
 | `demo` | Ingen inloggning. Varje besökare får en egen sandlåda med exempeldata som raderas efter `DEMO_TTL_HOURS` timmar. Kräver `sql/demo.sql` i stället för `exempeldata.sql`. Passar för att visa verktyget publikt. |
-| `ll2` | Delar session med ett befintligt inloggningssystem (`ll2.php`). Används i författarens egen installation och kan ignoreras. |
+
 
 ## Filer
 
