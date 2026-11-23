@@ -49,7 +49,7 @@ The login mode is set with `AUTH_MODE` in `config.php`:
 |---|---|
 | `login` | Built-in login with one username and password. The default. |
 | `demo` | No login. Each visitor gets their own sandbox with sample data, deleted after `DEMO_TTL_HOURS` hours. Requires `sql/demo.sql` instead of `exempeldata.sql`. Good for a public showcase. |
-| `ll2` | Shares the session with an existing login system (`ll2.php`). Used in the author's own installation, and you can ignore it. |
+
 
 ## Files
 
